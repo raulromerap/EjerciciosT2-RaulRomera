@@ -91,6 +91,8 @@ public class Ejercicio02 {
 		}else {
 			System.err.println("ERROR");
 		}
-		System.out.println(dni + letra);
+		System.out.println("A su DNI le pertenece la letra: " + letra);
+		
+		sc.close();
 	}
 }
