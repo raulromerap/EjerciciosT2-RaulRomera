@@ -6,34 +6,27 @@ public class Ejercicio02 {
 
 	public static void main(String[] args) {
 		
-		//Variable
-		//Creacion del scanner
 		Scanner sc = new Scanner(System.in);
-		//Creacion de las variables del numero del usuario y del contador
-		int num, cont = 0;
-				
-		//Mensaje para insertar el numero
-		System.out.print("Introduzca un números: ");
-		//Scan del numero del usuario
+		int j, num, contPri = 0;
+		boolean primo;
+		
+		System.out.print("Introduce numero: ");
 		num = sc.nextInt();
-				
-		//Bucle para empezar a sumar cifras al contador para saber si es primo o no primo
-		for(int n = 2; n<num; n++ ) {
-			//Condicional para incrementar el contador
-			if(num%n==0) {
-				//Incrementa el contador
-				cont++;
+		
+		for(int i=2;i<=num;i++){
+			primo=true;
+			j=2;
+			while (j<=i-1 && primo==true){
+				if (i%j==0) {
+					primo=false;
+				}
+				j++;
+			}
+			if (primo==true){
+				contPri++;
 			}
 		}
-		//Condicional para saber cuando es primo y no
-		if(cont > 0 || num == 1) { //Si el contador es mayor a 0 o igual a 1 manda mensaje
-			//Mensaje para el decir que el numero es primo
-			System.out.println("No es primo");
-		}else { //sino manda este otro mensaje
-			//Mensaje para el decir que el numero no es primo
-			System.out.println("Es primo");
-		}
-		//Cierre del Scanner
+		System.out.println("En el rango 1.." + num + ", hay "+ contPri + " números primos");
 		sc.close();
 	}
 }

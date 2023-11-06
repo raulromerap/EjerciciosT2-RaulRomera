@@ -22,7 +22,7 @@ public class Ejercicio01 {
 		if(hora <= 23 && hora >= 0 && minuto >= 0 && segundo >= 0 && minuto < 60 && segundo < 60) {
 			for(int cont = 0; cont < incremento; cont++) {
 				segundo++;
-				if(segundo >= 59) {
+				if(segundo >= 60) {
 					segundo = 0;
 					minuto += 1;
 					}if(minuto >= 60) {
