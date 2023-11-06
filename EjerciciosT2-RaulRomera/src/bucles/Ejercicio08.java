@@ -19,11 +19,11 @@ public class Ejercicio08 {
 			System.out.print("Dime un número: ");
 			n = sc.nextInt();
 			
-			if(n<aux && n>0) {
+			if(n<aux && (n>0 || n<0)) {
 				System.out.println("Fallo, es menor");
 				contF++;
 			}
-		}while(n>0);
+		}while(n>0||n<0);
 		
 		System.out.println("Total de números introducidos: " + cont);
 		System.out.println("Numeros fallados: " + contF);
