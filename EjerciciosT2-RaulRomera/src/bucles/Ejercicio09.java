@@ -8,19 +8,19 @@ public class Ejercicio09 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int n, aux, cont = 0, div = 10;
+		int n, aux, cont = 0;
 		
 		System.out.print("Introduzca un número: ");
 		n = sc.nextInt();
 		
-		if(n>0) {
+		aux = n;
+		
+		if(n>0||n<0) {
 			do {
-				aux = n/div;
+				aux = aux/10;
 				cont++;
-				div = div * 10;
-			}while(aux>=1);
-		}else {
-			System.err.println("ERROR");
+				
+			}while(aux>=1|| aux <= -1);
 		}
 		System.out.println("El número " + n + " contiene " + cont + " digitos");
 		sc.close();

@@ -8,20 +8,30 @@ public class Ejercicio04 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int a, b;
+		int a, b, menor = 0;
 		
 		System.out.print("Introduzca un número: ");
 		a = sc.nextInt();
 		System.out.print("Introduzca otro número: ");
 		b = sc.nextInt();
 		
-		while(a != b) {
-			if(a > b)
-				a = a - b;
-			else
-				b = b - a;
+		if(a>0&&b>0) {
+			
+			if(a>b) {
+				menor=a;
+			}else {
+				menor=b;
+			}
+			
+			while(a%menor!=0 || b%menor!=0) {
+				menor--;
+			}
+			
+			System.out.println("El MCD de los numeros es: " + menor);
+			
+		}else {
+			System.err.println("ERROR");
 		}
-		System.out.println("El MCD de los numeros es: " + a);
 		
 		sc.close();
 	}
