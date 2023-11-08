@@ -22,7 +22,7 @@ public class Ejercicio02 {
 				}
 				j++;
 			}
-			if (primo==true){
+			if (primo){
 				contPri++;
 			}
 		}
