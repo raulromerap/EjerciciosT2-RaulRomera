@@ -2,8 +2,16 @@ package condicionales;
 
 import java.util.Scanner;
 
-public class Ejercicio02 {
+	/* Casos de prueba
+	 * ENTRADA: 1234678 | ESPERA: Z | OBTENIDO: A su DNI le pertenece la letra: Z
+	 * ENTRADA: 0010004 | ESPERA: ERROR | OBTENIDO: ERROR 
+	 * ENTRADA: 10000000 | ESPERA: ERROR | OBTENIDO: ERROR
+	 * ENTRADA: 65489561 | ESPERA: M | OBTENIDO: A su DNI le pertenece la letra: M
+	 * ENTRADA: 0441171 | ESPERA: ERROR | OBTENIDO: ERROR
+	 */
 
+public class Ejercicio02 {
+	
 	public static void main(String[] args) {
 		
 		//Gestión de variables

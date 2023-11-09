@@ -15,14 +15,17 @@ public class Ejercicio09 {
 		
 		aux = n;
 		
-		if(n>0||n<0) {
+		if(n>0) {
 			do {
 				aux = aux/10;
 				cont++;
 				
-			}while(aux>=1|| aux <= -1);
+			}while(aux>=1);
+			System.out.println("El número " + n + " contiene " + cont + " digitos");
+		}else {
+			System.err.println("ERROR");
 		}
-		System.out.println("El número " + n + " contiene " + cont + " digitos");
+		
 		sc.close();
 	}
 

@@ -6,12 +6,18 @@ public class Ejercicio04 {
 
 	public static void main(String[] args) {
 		
+		//Gestion de variables
+		
+		//Creacion de variable para el escaner
 		Scanner sc = new Scanner(System.in);
 		
+		//Creacion de variable para el número del usuario, las decenas y las unidades
 		int num, primerDigito = 0, segundoDigito = 0;
+		//Creacion de las variables para poner las decenas y las unidades en forma de palabras
 		String numero1 = "", numero2 = "";
 		
-		System.out.print("Introduzca un n umero entre 1 y 99: ");
+		//Impresion de mensaje para introducir el numero del usuario
+		System.out.print("Introduzca un numero entre 1 y 99: ");
 		num = sc.nextInt();
 		
 		primerDigito = num/10;

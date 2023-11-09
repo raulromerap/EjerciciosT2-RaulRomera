@@ -2,8 +2,13 @@ package condicionales;
 
 import java.util.Scanner;
 
-	//Caso de prueba
-	//
+	/* Casos de prueba
+	 * ENTRADA: 202 | ESPERA: Capicúa | OBTENIDO: Es capicúa
+	 * ENTRADA: -5236 | ESPERA: ERROR | OBTENIDO: ERROR 
+	 * ENTRADA: 10000 | ESPERA: ERROR | OBTENIDO: ERROR
+	 * ENTRADA: 5201 | ESPERA: No es capicúa | OBTENIDO: No es capicúa
+	 * ENTRADA: 2 | ESPERA: Es capicúa | OBTENIDO: Es capicúa
+	 */
 
 public class Ejercicio01 {
 

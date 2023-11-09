@@ -2,6 +2,16 @@ package condicionales;
 
 import java.util.Scanner;
 
+	/* Casos de prueba
+		 * ENTRADA: 2 0 2 | RES. ESPERADO: A cada animal le corresponden 1.0 kilos de comida. | RES. OBTENIDO: A cada animal le corresponden 1.0 kilos de comida.
+		 * ENTRADA: 0 4 2 | RES. ESPERADO: No hay suficiente comida comprada | RES. OBTENIDO: No hay suficiente comida comprada
+		 * ENTRADA: 10 6 3 | RES. ESPERADO: A cada animal le corresponden 1.3333333333333333 kilos de comida. | RES. OBTENIDO: A cada animal le corresponden 1.3333333333333333 kilos de comida.
+		 * ENTRADA: 12 3 0 | RES. ESPERADO: ERROR | RES. OBTENIDO: ERROR
+		 * ENTRADA: 4 4 2 | RES. ESPERADO: No hay suficiente comida | RES. OBTENIDO: No hay suficiente comida
+		 * ENTRADA: 8 -3 5 | RES. ESPERADO: ERROR | RES. OBTENIDO: ERROR
+		 * ENTRADA: -3 2 6 | RES. ESPERADO: ERROR | RES. OBTENIDO: ERROR
+		 */
+
 public class Ejercicio03 {
 
 	public static void main(String[] args) {
