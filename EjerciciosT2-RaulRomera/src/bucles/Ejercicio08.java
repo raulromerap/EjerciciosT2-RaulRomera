@@ -2,7 +2,20 @@ package bucles;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+	/* Casos de prueba
+	 * ENTRADA: Dime un numero inicial: -as 		| OBTENIDO: Dime un numero inicial: -as 
+				Tipo de valor incorrecto						Tipo de valor incorrecto
+				Dime un numero inicial: -5						Dime un numero inicial: -5	
+				Dime un número: 2								Dime un número: 2
+				Dime un número: 1								Dime un número: 1
+				Fallo, es menor									Fallo, es menor
+				Dime un número: 65								Dime un número: 65
+				Dime un número: 42								Dime un número: 42
+				Fallo, es menor									Fallo, es menor
+				Dime un número: 0								Dime un número: 0
+				Total de números introducidos: 5				Total de números introducidos: 5
+				Numeros fallados: 2 							Numeros fallados: 2
+	 */
 public class Ejercicio08 {
 
 	public static void main(String[] args) {

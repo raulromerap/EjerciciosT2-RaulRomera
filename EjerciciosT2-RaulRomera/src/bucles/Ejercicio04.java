@@ -8,7 +8,7 @@ import java.util.Scanner;
 	 * ENTRADA: -1 5 | ESPERA: ERROR | OBTENIDO: ERROR 
 	 * ENTRADA: 10 55| ESPERA: 5 | OBTENIDO: El MCD de los numeros es: 5
 	 * ENTRADA: 1515 2364 | ESPERA: 3 | OBTENIDO: El MCD de los numeros es: 3
-	 * ENTRADA: 2 | ESPERA: Es capicúa | OBTENIDO: Es capicúa
+	 * ENTRADA: M  p | ESPERA: Error | OBTENIDO: Tipo de valor incorrecto
 	 */
 
 public class Ejercicio04 {

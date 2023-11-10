@@ -3,6 +3,14 @@ package bucles;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+	/* Casos de prueba
+	 * ENTRADA: -546 | ESPERA: ERROR | OBTENIDO: ERROR
+	 * ENTRADA: 5 | ESPERA: 1 Digitos | OBTENIDO: El número 5 contiene 1 digitos
+	 * ENTRADA: 10 | ESPERA: 2 Digitos | OBTENIDO: El número 10 contiene 2 digitos
+	 * ENTRADA: 1515 | ESPERA: 4 Digitos | OBTENIDO: El número 1515 contiene 4 digitos
+	 * ENTRADA: M | ESPERA: Error | OBTENIDO: Tipo de valor incorrecto
+	 */
+
 public class Ejercicio09 {
 
 	public static void main(String[] args) {

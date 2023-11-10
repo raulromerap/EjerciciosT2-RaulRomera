@@ -3,6 +3,14 @@ package bucles;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+	/* Casos de prueba
+	 * ENTRADA: 9 15 | ESPERA: 45 | OBTENIDO: El MCM de los dos números es: 45
+	 * ENTRADA: -1 5 | ESPERA: ERROR | OBTENIDO: ERROR 
+	 * ENTRADA: 10 55| ESPERA: 110 | OBTENIDO: El MCM de los dos números es: 110
+	 * ENTRADA: 1515 2364 | ESPERA: 1193820 | OBTENIDO: El MCM de los dos números es: 1193820
+	 * ENTRADA: M  p | ESPERA: Error | OBTENIDO: Tipo de valor incorrecto
+	 */
+
 public class Ejercicio05 {
 
 	public static void main(String[] args) {

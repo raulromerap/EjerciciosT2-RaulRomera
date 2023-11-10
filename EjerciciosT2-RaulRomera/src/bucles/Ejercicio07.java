@@ -3,6 +3,30 @@ package bucles;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+	/* Casos de prueba
+	 * ENTRADA: 4 | ESPERA: 1    	| OBTENIDO: El MCD de los numeros es: 	1
+							121												121
+							12321											12321
+							1234321 										1234321
+							
+	 * ENTRADA: -1 | ESPERA: Introduce el valor de la figura: | OBTENIDO: Introduce el valor de la figura: 
+	 * ENTRADA: 10 | ESPERA: 1  					| OBTENIDO: 1
+							 121								121
+							 12321								12321
+							 1234321							1234321
+							 123454321							123454321
+							 12345654321						12345654321
+							 1234567654321						1234567654321
+							 123456787654321					123456787654321
+							 12345678987654321					12345678987654321
+							 12345678910987654321 				12345678910987654321
+							 
+	 * ENTRADA: 2 | ESPERA: 1 	| OBTENIDO: 1
+	  						121			  	121
+	
+	 * ENTRADA: p | ESPERA: Error | OBTENIDO: Tipo de valor incorrecto
+	 */
+
 public class Ejercicio07 {
 
 	public static void main(String[] args) {

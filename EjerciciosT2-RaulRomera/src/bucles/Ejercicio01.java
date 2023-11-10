@@ -2,13 +2,15 @@ package bucles;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-	/*
+
+	/* Casos de prueba
 	 * ENTRADA: 23:59:40 INCREMENTA: 100 | ESPERA: 00:01:20 | OBTENIDO: 0:1:20
 	 * ENTRADA: 14:20:59 INCREMENTA: 1 | ESPERA: 14:21:00 | OBTENIDO: 14:21:0
 	 * ENTRADA: 25:19:21 INCREMENTA: 2 | ESPERA: ERROR | OBTENIDO: ERROR
 	 * ENTRADA: 01:62:00 INCREMENTA: 50 | ESPERA: ERROR | OBTENIDO: ERROR
 	 * ENTRADA: 02:30:01 INCREMENTA: -2 | ESPERA: ERROR | OBTENIDO: ERROR
 	 */
+
 public class Ejercicio01 {
 
 	public static void main(String[] args) {
