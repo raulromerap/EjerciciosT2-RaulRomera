@@ -1,5 +1,6 @@
 package bucles;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 //Caso de prueba
@@ -15,15 +16,22 @@ public class Ejercicio10 {
 		//Variable del Scanner
 		Scanner sc = new Scanner(System.in);
 		//Variable del número del usuario
-		int num, aux, cifra, inverso = 0;
+		int num = -1, aux, cifra, inverso = 0;
 		
 		
 		//Gestión de desarrollo
 		
+		do {
+			try {
 		//Introduccion del mensaje para insertar el numero del usuario
 		System.out.print("Introduce un número entre 0 y 9999: ");
 		//Escaneo del numero insertado para darle valor a la variable num
 		num = sc.nextInt();
+			}catch(InputMismatchException e) {
+				System.out.println("Tipo de valor incorrecto");
+				sc.nextLine();
+			}
+		}while(num<0||num>9999);
 		
 		//Operacion para darle la vuelta al número
 		//Igualacion del auxiliar y el número del usuario
